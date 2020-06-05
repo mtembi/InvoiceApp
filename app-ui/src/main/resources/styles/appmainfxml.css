@@ -1,0 +1,228 @@
+/*
+ * Empty Stylesheet file.z
+ */
+
+.mainFxmlClass {
+
+}
+.mainToolBar{
+    -fx-pref-height:50;
+    -fx-padding:0;
+}
+.toolBarButton{
+    -fx-pref-width:70;
+    -fx-pref-height:40;
+    -fx-focus-traversable:false;
+    -fx-background-color: transparent;
+    -fx-alignment: CENTER;
+    -fx-content-display:top;
+    -fx-font-family:"Arial";
+    -fx-font-size:0.98em;
+    -fx-graphic-text-gap:4;
+    -fx-padding:2px 2px 2px 2px;
+}
+.toolBarButton:hover{
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 0px, 0px, 0px, 0px;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em; /* 4 8 4 8 */
+    -fx-text-fill: -fx-text-base-color;
+    -fx-alignment: CENTER;
+    -fx-content-display: top;
+}
+.toolBarMenuButton{
+    -fx-pref-width:75;
+    -fx-pref-height:40;
+    -fx-focus-traversable:false;
+    -fx-background-color: transparent;
+    -fx-alignment: CENTER;
+    -fx-content-display:top;
+    -fx-font-family:"Arial";
+    -fx-font-size:0.98em;
+    -fx-graphic-text-gap:4;
+    -fx-alignment:CENTER;
+}
+.toolBarMenuButton:hover{
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 0px, 0px, 0px, 0px;
+    /*-fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em; /* 4 8 4 8 */
+    
+    -fx-text-fill: -fx-text-base-color;
+    -fx-alignment: CENTER;
+    -fx-content-display: top;
+}
+.toolBarMenuItem{
+    -fx-padding-left:5px;
+}
+.toolBarIcon{
+    -fx-pref-width:30px;
+    -fx-pref-height:30px;
+    -fx-fit-width:37px;
+}
+.sideScrollPane{
+    -fx-padding:10px;
+}
+.titledMenuPane{
+    -fx-pref-width:16em;
+    -fx-pref-rows:2;
+}
+.titledMenuPaneContentPane{
+    -fx-background-color:#ffffff;
+}
+.titledMenuPaneContentPaneLabel{
+    -fx-pref-width:180px;
+    -fx-pref-height:25px;    
+    -fx-background-color: transparent;
+    -fx-alignment:top-left;
+    -fx-text-fill:#174ae7;
+    -fx-content-display:left;
+}
+.titledMenuPaneContentPaneLabel:hover{
+    -fx-text-fill:-fx-text-base-color;
+}
+.desktopMainPane{
+    -fx-background-color:#068b8b;
+}
+.desktopMainPaneLabel{
+    -fx-pref-width:96px;
+}
+.desktopMainPaneLabelRect{
+    -fx-alignment:BOTTOM_LEFT;
+    -fx-text-alignment:left;
+    -fx-text-fill:#ffffff;
+    -fx-stroke:transparent;
+    -fx-pref-width:96px;
+    -fx-fill:#5bbd00;
+}
+.desktopMainPaneLabelRect:hover{
+    -fx-fill:#1f9c3e;
+}
+.desktopMainPaneLabelRect:disabled{
+    -fx-fill:#145f1f;
+}
+.desktopMainPaneLabelText{
+    -fx-fill:#ffffff;
+    -fx-font-family:"Arial";
+    -fx-font-size:12px;
+    -fx-font-weight:bold;
+}
+
+/** this is for dialogs  **/
+.entriesHBox{
+    -fx-padding:5;
+    -fx-pref-height:23;
+
+}
+.entriesHBox2{
+    -fx-padding:5;
+    -fx-pref-height:100;
+
+}
+.entriesLabel{
+    -fx-pref-width:240;
+    -fx-pref-height:25;
+}
+.entriesLabel2{
+    -fx-pref-width:170px;
+    -fx-pref-height:25px;
+}
+.entriesLabel3{
+    -fx-pref-width:100px;
+    -fx-pref-height:25px;
+}
+
+/** this is for listing dialogs **/
+.innerToolBar{
+    -fx-pref-height:70px;
+}
+.innerToolBarButton{
+    -fx-pref-width:70px;
+    -fx-pref-height:65px;
+    -fx-focus-traversable:false;
+    -fx-background-color: transparent;
+    -fx-alignment: CENTER;
+    -fx-content-display:top;
+    -fx-font-family:"Arial";
+    -fx-graphic-text-gap:4;
+    -fx-font-size:12px;
+    -fx-padding:2px 2px 2px 2px;
+}
+.innerToolBarButton:hover{
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 0px, 0px, 0px, 0px;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em; /* 4 8 4 8 */
+    -fx-text-fill: -fx-text-base-color;
+    -fx-alignment: CENTER;
+    -fx-content-display: top;
+}
+.innerToolBarMenuButton{
+    -fx-pref-width:100px;
+    -fx-pref-height:65px;
+    -fx-focus-traversable:false;
+    -fx-background-color: transparent;
+    -fx-alignment: CENTER;
+    -fx-content-display:top;
+    -fx-font-family:"Arial";
+    -fx-graphic-text-gap:4;
+    -fx-font-size:12px;
+    -fx-padding:2px 2px 2px 2px;
+}
+.innerToolBarMenuButton:hover{
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 0px, 0px, 0px, 0px;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em; /* 4 8 4 8 */
+    -fx-text-fill: -fx-text-base-color;
+    -fx-alignment: CENTER;
+    -fx-content-display: top;
+}
+.innerToolBarButtonIcon{
+    -fx-pref-width:34px;
+    -fx-pref-height:34px;
+    -fx-fit-width:34px;
+    -fx-fit-height:34px;
+}
+
+
+.label {
+
+}
+
+.bordered-titled-title {
+    -fx-translate-y: -10;
+    -fx-translate-x:-200;
+    -fx-background-color:-fx-background;
+}
+
+.bordered-titled-border {
+    -fx-content-display: top;
+    -fx-border-insets: 20 15 15 15;
+    -fx-border-color: lightgray;
+    -fx-border-width: 1;
+}
+
+.bordered-titled-content {
+    -fx-padding: 26 10 10 10;
+}
+
+
+.actionButtons{
+    -fx-pref-width:70px;
+
+}
+
+.mainActionButtons{
+    -fx-pref-width:100px;
+
+}
+
+.iconButtons{
+    -fx-pref-width:37px;
+}
+
+.editableComboBox{
+    -fx-border-color:none;
+    -fx-border-radius:0px;
+}

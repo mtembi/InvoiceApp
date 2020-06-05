@@ -1,0 +1,5 @@
+mariaDB4j:
+  port: 3308
+  dataDir: ./mysql/data
+  baseDir: ./mysql/base
+  libDir: ./mysql/lib

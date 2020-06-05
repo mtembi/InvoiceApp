@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/InvoiceApp.iml" filepath="$PROJECT_DIR$/.idea/InvoiceApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-ui/app-ui.iml" filepath="$PROJECT_DIR$/app-ui/app-ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-store/data-store.iml" filepath="$PROJECT_DIR$/data-store/data-store.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-client/dataclient.iml" filepath="$PROJECT_DIR$/data-client/dataclient.iml" />
+    </modules>
+  </component>
+</project>
